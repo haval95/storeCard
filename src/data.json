@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "T-shirt",
+        "description": "here we have a T-shirt description",
+        "price": 10,
+        "image": "https://purepng.com/public/uploads/large/purepng.com-black-t-shirtclothingblack-t-shirtfashion-dress-shirt-black-cloth-tshirt-631522326884bzr0p.png"
+      },
+      {
+        "id": 2,
+        "name": "shirt",
+        "description": "here we have a shirt description",
+        "price": 25,
+        "image": "https://i.pinimg.com/originals/82/6c/a6/826ca600f39f231694ec7f3e8367cf28.png"
+      },
+      {
+        "id": 3,
+        "name": "Jeans",
+        "description": "here we have  Jeans description",
+        "price": 5,
+        "image": "https://lh3.googleusercontent.com/proxy/eLG5NZkyrRf6fkIfrfOlBJtKXw8o9r6lkAzsCIXvKgGKiAXUCEjdMTsrix7y1nq2UO0vEGn-wEHmArKNbQRGA4gT2ItrinCm30bwfNT_zccK2mBY7g"
+      },
+  
+      {
+        "id": 4,
+        "name": "Socks",
+        "description": "here we have a Socks description",
+        "price": 5,
+        "image": "https://pngimg.com/uploads/socks/socks_PNG8218.png"
+      }
+      
+    ]
+  }
+  

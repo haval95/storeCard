@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import * as Boot from 'react-bootstrap';
+import ProductList from "./components/ProductList";
+import {ProductProvider} from "./components/Context";
+import Card from "./components/Card"
+import {CardProvider} from "./components/CardContext"
 import './App.css';
+
 
 function App() {
   return (
+    <Boot.Container>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductProvider>
+        <CardProvider>
+        <Boot.Row className="justify-content-end">
+          <Card />
+        </Boot.Row>
+        
+          <ProductList />
+      
+        </CardProvider>
+      </ProductProvider>
     </div>
+    </Boot.Container>
   );
 }
 
